@@ -8,10 +8,10 @@
 }
 
 :root {
-    --fondo-principal: url("/image/fondo4.jpeg");
-    --fondo-mickey: url("/image/fondo-mickey.jpeg");
-    --fondo-cars: url("/image/fondo-cars.jpeg");
-    --fondo-stitch: url("/image/fondo-stitch.jpeg");
+    --fondo-principal: url("image/fondo4.jpeg");
+    --fondo-mickey: url("image/fondo-mickey.jpeg");
+    --fondo-cars: url("image/fondo-cars.jpeg");
+    --fondo-stitch: url("image/fondo-stitch.jpeg");
 }
 
 body, header, main, footer{
@@ -254,7 +254,7 @@ footer img{
 .tarjetas.grande {
     width: 350px;
     height: 400px;
-    transition: all 0.3s ease; /* Transición suave */
+    transition: all 0.3s ease;
 }
 
 a{
